@@ -1,0 +1,524 @@
+#bg{
+	background: url('../images/background.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+
+}
+.navbar-default { 
+	background-color: #B4E4ED;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #F9EDFF;
+  background-color: #B4E4ED;
+}
+
+/*首頁*/
+@media(max-width: 760px){
+	#east{	
+	width: 300px;
+	height: 200px;
+	clear:both;
+	background: url('../images/east.png') top center;
+	-webkit-background-size: cover;
+	position: absolute;
+	top: 50%;
+	left: 20%;}
+
+	#west{
+	width: 300px;
+	height: 200px;
+	clear:both;
+	background: url('../images/west.png')top center;
+	-webkit-background-size: cover;
+	position: absolute;
+	top: 20%;
+	left: 20%;}
+}
+
+@media(min-width: 761px){
+	#east{	
+	width: 250px;
+	height: 167px;
+	position: absolute;
+	top: 30%;
+	right: 10%;
+	background: url('../images/m-east.png') ;
+	-webkit-background-size: cover;}
+	#west{
+	width: 250px;
+	height: 167px;
+	position: absolute;
+	top: 30%;
+	left: 10%;
+	background: url('../images/m-west.png');
+	-webkit-background-size: cover;}
+}
+
+@media(min-width: 955px){
+	#east{	
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	top: 30%;
+	left: 60%;
+	background: url('../images/east.png');
+	-webkit-background-size: cover;}
+	#west{
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	top: 30%;
+	right: 60%;
+	background: url('../images/west.png');
+	-webkit-background-size: cover;}
+}
+
+/*west&east*/
+@media(max-width: 760px){
+	body{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 50px;
+	}
+	.violin img{
+		width: 80%;}
+	.cello img{
+		width: 80%;
+	}
+	.flute img{
+		width: 80%;}
+	.oboe img{
+		width: 80%;
+	}
+	.trumborn img{
+		width: 80%;}
+	.drum img{
+		width: 80%;}
+
+	#gu img{
+		width: 80%;
+	}
+	#luo img{
+		width: 80%;
+	}
+	#bo img{
+		width: 80%;
+	}
+	#sheng img{
+		width: 80%;
+	}
+	#ti img{
+		width: 80%;
+	}
+	#so-na img{
+		width: 80%;
+	}
+	#erh-hu img{
+		width: 80%;
+	}
+	#liu-chin img{
+		width: 80%;
+	}
+	#pi-pa img{
+		width: 80%;
+	}
+	#juan img{
+		width: 80%;
+	}
+}
+@media(min-width: 761px){
+	#chairs{
+		width: 800px;
+		height: 566px;
+		background: url('../images/m-chairs.png') top center;
+		-webkit-background-size: cover;
+		margin: 0px auto;	
+	}
+
+	.violin img{
+		width: 200px;
+		height: 165px;
+		position: absolute;
+		top: 45%;
+		left: 10%;
+	}
+	.cello img{
+		width: 200px;
+		height:152px;
+		position: absolute;
+		top: 40%;
+		right: 15%;
+	}
+	.strings:hover .cello img{
+		width: 400px;
+		height: 304px;
+	}
+	.strings:hover .violin img{
+		width: 300px;
+		height: 266px;
+	}
+
+	.flute img{
+		width: 110px;
+		height: 100px;
+		position: absolute;
+		top: 40%;
+		left: 30%;
+	}
+	.oboe img{
+		width: 110px;
+		height: 130px;
+		position: absolute;
+		top: 40%;
+		right: 35%;
+	}
+	.woods:hover .flute img{
+		width: 150px;
+		height: 150px;
+	}
+	.woods:hover .oboe img{
+		width: 150px;
+		height: 177px;
+	}
+	.trumborn img{
+		width: 200px;
+		height: 66px;
+		position: absolute;
+		top: 20%;
+		left: 40%;
+	}
+	.metal:hover .trumborn img{
+		width: 300px;
+		height: 100px;
+	}
+
+	.drum img{
+		width: 100px;
+		height: 68px;
+		position: absolute;
+		top: 20%;
+		left: 15%;
+	}
+	.percussion:hover .drum img{
+		width: 150px;
+		height: 103px;
+	}
+	/*↓--------------east---------------↓*/
+	#gu img{
+		height: 90px;
+		margin-left: 320px;
+		position: absolute;
+	}
+	#luo img{
+		height: 90px;
+		margin-left: 100px;
+		margin-top: 20px;
+		position: absolute;
+	}
+	#bo img{
+		height: 50px;
+		margin-left:550px;
+		margin-top: 50px;
+		position: absolute;
+	}
+	.da {
+		height: 90px;
+		width: 850px;
+		margin:auto;
+		margin-top: -470px;
+	}
+	.da:hover #gu img{
+		height: 120px;
+		margin-left: 300px;
+	}
+	.da:hover #luo img{
+		height: 120px;
+	}
+	.da:hover #bo img{
+		height: 80px;
+		margin-left: 500px;
+	}    
+	/*↑--------打--------↑*/
+	#sheng img{
+		height: 110px;
+		margin-left: 30px;
+		position: absolute;
+	} 
+	#ti img{
+		height: 100px;
+		margin-left: 300px;
+		position: absolute;
+	}
+	#so-na img{
+		height: 90px;
+		margin-left: 630px;
+		margin-top: 30px;
+		position: absolute;
+	}
+	.chui {
+		height: 110px;
+		width: 850px;
+		margin:auto;
+	}
+	.chui:hover #sheng img{
+		height: 140px;
+	}
+	.chui:hover #ti img{
+		height: 130px;
+		margin-left: 270px;
+	}
+	.chui:hover #so-na img{
+		height: 120px;
+		margin-left: 600px;
+	}
+	/*↑--------吹--------↑*/
+
+	#la_dan {
+		height: 120px;
+		width: 850px;
+		margin: auto;
+	}
+
+	#erh-hu img{
+		height: 120px;
+		margin-left: 115px;
+		position: absolute;
+	}
+	.la {
+		height: 120px;
+		width: 283px;
+		position: absolute;
+	}
+	.la:hover #erh-hu img{
+		height: 150px;
+		margin-left: 100px;
+	}
+	/*↑--------拉--------↑*/
+	#liu-chin img{
+		height: 120px;
+		margin-left: 30px;
+		position: absolute;
+	}
+	#pi-pa img{
+		height: 120px;
+		margin-left: 100px;
+		position: absolute;
+	}
+	#juan img{
+		height: 120px;
+		margin-left: 300px;
+		position: absolute;
+	}
+	.dan {
+		height: 120px;
+		width: 567px;
+		margin-left: 283px;
+		position: absolute;
+	}
+	.dan:hover #liu-chin img{
+		height: 150px;
+		margin-left: 30px;
+	}
+	.dan:hover #pi-pa img{
+		height: 150px;
+		margin-left: 100px;
+	}
+	.dan:hover #juan img{
+		height: 150px;
+		margin-left: 300px;
+	}
+	/*↑--------彈--------↑*/
+}
+@media(min-width: 930px){
+	#chairs{
+		background: url('../images/chairs.png') top center;
+		-webkit-background-size: cover;
+		width: 1000px;
+		margin: 0px auto;	
+	}
+	.violin img{
+		width: 300px;
+		height: 247px;
+		position: absolute;
+		top: 45%;
+		left: 3%;
+	}
+	.cello img{
+		width: 400px;
+		height: 304px;
+		position: absolute;
+		top: 40%;
+		left: 55%;
+
+	}
+	.strings:hover .cello img{
+	width: 500px;
+	height: 380px;
+	}
+	.strings:hover .violin img{
+		width: 400px;
+		height: 329px;
+	}
+
+	.flute img{
+		width: 150px;
+		height: 150px;
+		position: absolute;
+		top: 40%;
+		right: 70%;
+	}
+	.oboe img{
+		width: 150px;
+		height: 177px;
+		position: absolute;
+		top: 40%;
+		left: 50%;
+	}
+	.woods:hover .flute img{
+		width: 250px;
+		height: 250px;
+	}
+	.woods:hover .oboe img{
+		width: 200px;
+		height: 236px;
+	}
+	.drum img{
+		width: 100px;
+		height: 68px;
+		position: absolute;
+		top: 25%;
+		left: 20%;
+	}
+	.percussion:hover .drum img{
+		width: 150px;
+		height: 103px;
+	}
+	/*↓--------------east---------------↓*/
+	#gu img{
+		height: 100px;
+		margin-left: 320px;
+		position: absolute;
+	}
+	#luo img{
+		height: 100px;
+		margin-left: 100px;
+		margin-top: 10px;
+		position: absolute;
+	}
+	#bo img{
+		height: 60px;
+		margin-left:550px;
+		margin-top: 50px;
+		position: absolute;
+	}
+	.da {
+		height: 100px;
+		width: 850px;
+		margin:auto;
+		margin-top: -470px;
+	}
+	.da:hover #gu img{
+		height: 140px;
+		margin-left: 300px;
+	}
+	.da:hover #luo img{
+		height: 140px;
+	}
+	.da:hover #bo img{
+		height: 100px;
+		margin-left: 500px;
+	}    
+	/*↑--------打--------↑*/
+	#sheng img{
+		height: 150px;
+		margin-left: 10px;
+		position: absolute;
+	} 
+	#ti img{
+		height: 120px;
+		margin-left: 300px;
+		position: absolute;
+	}
+	#so-na img{
+		height: 110px;
+		margin-left: 630px;
+		margin-top: 30px;
+		position: absolute;
+	}
+	.chui {
+		height: 130px;
+		width: 850px;
+		margin:auto;
+	}
+	.chui:hover #sheng img{
+		height: 190px;
+	}
+	.chui:hover #ti img{
+		height: 160px;
+		margin-left: 270px;
+	}
+	.chui:hover #so-na img{
+		height: 150px;
+		margin-left: 600px;
+	}
+	/*↑--------吹--------↑*/
+
+	#la_dan {
+		height: 150px;
+		width: 850px;
+		margin: auto;
+	}
+
+	#erh-hu img{
+		height: 150px;
+		margin-left: 115px;
+		position: absolute;
+	}
+	.la {
+		height: 150px;
+		width: 283px;
+		position: absolute;
+	}
+	.la:hover #erh-hu img{
+		height: 190px;
+		margin-left: 100px;
+	}
+	/*↑--------拉--------↑*/
+	#liu-chin img{
+		height: 150px;
+		margin-left: 30px;
+		position: absolute;
+	}
+	#pi-pa img{
+		height: 150px;
+		margin-left: 100px;
+		position: absolute;
+	}
+	#juan img{
+		height: 150px;
+		margin-left: 300px;
+		position: absolute;
+	}
+	.dan {
+		height: 150px;
+		width: 567px;
+		margin-left: 283px;
+		position: absolute;
+	}
+	.dan:hover #liu-chin img{
+		height: 190px;
+		margin-left: 10px;
+	}
+	.dan:hover #pi-pa img{
+		height: 190px;
+		margin-left: 90px;
+	}
+	.dan:hover #juan img{
+		height: 190px;
+		margin-left: 300px;
+	}
+	/*↑--------彈--------↑*/
+}
+

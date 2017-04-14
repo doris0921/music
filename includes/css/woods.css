@@ -1,0 +1,237 @@
+@media(max-width: 760px){
+	body{
+	margin-left: 20px;
+	margin-right: 20px;
+	}
+	#flute img{
+		width: 50%;
+		height: 50%;
+		order:1;
+	}
+	p{
+		float:left;
+		font-size: 12px;
+	}
+	#clarinet img{
+		width: 70%;
+		height: 70%;
+		float:left;
+	}
+	#oboe img{
+		width: 100%;
+		height: 100%;
+		/*float:left;*/
+	}
+	#basson img{
+		width: 100%;
+		height: 100%;
+	}
+	#saxphone img{
+		width: 100%;
+		height: 100%;
+	}
+
+	.table{
+		position: absolute;
+		top: 50px;
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+
+	}
+	.td{
+		vertical-align:middle;
+	}
+}
+@media(min-width: 761px){
+	body{
+	margin: 50px;
+	}
+
+	#chairs{
+		width: 800px;
+		height: 566px;
+		background: url('../images/m-chairs.png') top center;
+		-webkit-background-size: cover;
+		margin: 0px auto;	
+	}
+
+	.flute{
+		width: 150px;
+		height: 150px;
+		background: url('../images/m-flute.png') top center;
+		-webkit-background-size: cover;
+		position: absolute;
+		top: 40%;
+		left: 10%;
+	}
+	.clarinet{
+		width: 150px;
+		height: 212px;
+		background: url('../images/m-clarinet.png') top center;
+		-webkit-background-size: cover;
+		position: absolute;
+		top: 40%;
+		left: 20%;
+	}
+	.oboe{
+		width: 150px;
+		height: 177px;
+		background: url('../images/m-oboe.png') top center;
+		-webkit-background-size: cover;
+		position: absolute;
+		top: 40%;
+		left: 40%;
+	}
+	.basson{
+		width: 150px;
+		height: 175px;
+		background: url('../images/m-basson.png') top center;
+		-webkit-background-size: cover;
+		position: absolute;
+		top: 40%;
+		left: 50%;
+	}
+	.saxphone{
+		width:150px;
+		height: 141px;
+		background: url('../images/m-saxphone.png') top center;
+		-webkit-background-size: cover;
+		position: absolute;
+		top: 40%;
+		right: 10%;
+	}
+	#flute img{
+		width: 300px;
+		height: 300px;
+		float:left;
+	}
+	p{
+		/*float:left;*/
+		font-size: 18px;
+	}
+	#clarinet img{
+		width: 300px;
+		height: 350px;
+		float:left;
+	}
+	#oboe img{
+		width: 300px;
+		height: 336px;
+		float:left;
+	}
+	#basson img{
+		width: 300px;
+		height: 350px;
+	}
+	#saxphone img{
+		width: 300px;
+		height: 300px;
+		float:left;
+	}
+	.table{
+		display: table;
+	}
+	.tr{
+		display: table-row;
+	}
+	.td{
+		display: table-cell;
+		vertical-align:middle;
+	}
+}
+@media(min-width: 930px){
+	body{
+	margin: 100px;
+	}
+	#chairs{
+		background: url('../images/chairs.png') top center;
+		-webkit-background-size: cover;
+		width: 1000px;
+		margin: 0px auto;	
+	}
+	.flute{
+		width: 250px;
+		height: 250px;
+		background: url('../images/l-flute.png') top center;
+		-webkit-background-size: cover;
+		position: absolute;
+		top: 40%;
+		left: 10%;
+	}
+	.clarinet{
+		width: 200px;
+		height: 283px;
+		background: url('../images/l-clarinet.png') top center;
+		-webkit-background-size: cover;
+		position: absolute;
+		top: 40%;
+		left: 20%;
+	}
+	.oboe{
+		width: 200px;
+		height: 236px;
+		background: url('../images/l-oboe.png') top center;
+		-webkit-background-size: cover;
+		position: absolute;
+		top: 40%;
+		left: 40%;
+	}
+	.basson{
+		width: 300px;
+		height: 350px;
+		background: url('../images/l-basson.png') top center;
+		-webkit-background-size: cover;
+		position: absolute;
+		top: 30%;
+		left: 50%;
+	}
+	.saxphone{
+		width:300px;
+		height: 282px;
+		background: url('../images/l-saxphone.png') top center;
+		-webkit-background-size: cover;
+		position: absolute;
+		top: 40%;
+		right: 10%;
+	}
+
+	#flute img{
+		width: 300px;
+		height: 300px;
+		float:left;
+	}
+	p{
+		/*float:left;*/
+		font-size: 24px;
+	}
+	#clarinet img{
+		width: 300px;
+		height: 350px;
+		float:left;
+	}
+	#oboe img{
+		width: 300px;
+		height: 336px;
+		float:left;
+	}
+	#basson img{
+		width: 300px;
+		height: 350px;
+	}
+	#saxphone img{
+		width: 300px;
+		height: 300px;
+		float:left;
+	}
+	.table{
+		display: table;
+	}
+	.tr{
+		display: table-row;
+	}
+	.td{
+		display: table-cell;
+		vertical-align:middle;
+	}
+}

@@ -1,0 +1,222 @@
+@media(max-width: 760px){
+	body{
+	margin-left: 20px;
+	margin-right: 20px;
+	}
+	#violin img{
+		width: 50%;
+		height: 50%;
+		order:1;
+	}
+	p{
+		float:left;
+		font-size: 12px;
+	}
+	#vola img{
+		width: 80%;
+		height: 80%;
+		float:left;
+		order:2;
+	}
+	#cello img{
+		width: 100%;
+		height: 100%;
+		/*float:left;*/
+	}
+	#doublebass img{
+		width: 100%;
+		height: 100%;
+	}
+
+	.table{
+		position: absolute;
+		top: 50px;
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+
+	}
+	.td{
+		vertical-align:middle;
+	}
+}
+
+@media(min-width: 761px){
+	body{
+	margin: 50px;
+	}
+
+	#chairs{
+		width: 800px;
+		height: 566px;
+		background: url('../images/m-chairs.png') top center;
+		-webkit-background-size: cover;
+		margin: 0px auto;	
+	}
+
+	.violin{
+		width: 150px;
+		height: 120px;
+		background: url('../images/s-violin.png') top center;
+		-webkit-background-size: cover;
+		position: absolute;
+		top: 40%;
+		left: 5%;
+	}
+	.vola{
+		width: 180px;
+		height: 150px;
+		background: url('../images/s-violin.png') top center;
+		-webkit-background-size: cover;
+		position: absolute;
+		top: 40%;
+		left: 20%;
+	}
+	.cello{
+		width: 300px;
+		height: 204px;
+		background: url('../images/m-cello.png') top center;
+		-webkit-background-size: cover;
+		position: absolute;
+		top: 35%;
+		left: 40%;
+	}
+	.doublebass{
+		width: 400px;
+		height: 304px;
+		background: url('../images/doublebass.png') top center;
+		-webkit-background-size: cover;
+		position: absolute;
+		top: 30%;
+		left: 60%;
+	}
+	#violin img{
+		width: 250px;
+		height: 200px;
+		float:left;
+	}
+	p{
+		float:left;
+		font-size: 18px;
+	}
+	#vola img{
+		width: 300px;
+		height: 250px;
+		float:left;
+	}
+	#cello img{
+		width: 400px;
+		height: 300px;
+		float:left;
+	}
+	#doublebass img{
+		width: 500px;
+		height: 404px;
+		position: absolute;
+		right: -50px;
+	}
+	#doublebass p{
+		float:left;
+		font-size: 18px;
+	}
+	#doublebass h1{
+	padding-top: 300px;}
+		.table{
+		display: table;
+	}
+	.tr{
+		display: table-row;
+	}
+	.td{
+		display: table-cell;
+		vertical-align:middle;
+	}
+
+}
+@media(min-width: 930px){
+	body{
+	margin: 100px;
+	}
+
+	#chairs{
+		background: url('../images/chairs.png') top center;
+		-webkit-background-size: cover;
+		width: 1000px;
+		margin: 0px auto;	
+	}
+	.violin{
+		width: 200px;
+		height: 170px;
+		background: url('../images/m-violin.png') top center;
+		-webkit-background-size: cover;
+		position: absolute;
+		top: 45%;
+		left: 10%;
+	}
+	.vola{
+		width: 250px;
+		height: 200px;
+		background: url('../images/m-violin.png') top center;
+		-webkit-background-size: cover;
+		position: absolute;
+		top: 40%;
+		left: 20%;
+	}
+	.cello{
+		width: 400px;
+		height: 280px;
+		background: url('../images/l-cello.png') top center;
+		-webkit-background-size: cover;
+		position: absolute;
+		top: 30%;
+		left: 40%;
+	}
+	.doublebass{
+		width: 400px;
+		height: 404px;
+		background: url('../images/doublebass.png') top center;
+		-webkit-background-size: cover;
+		position: absolute;
+		top: 30%;
+		left: 60%;
+	}
+	#violin img{
+		/*float:left;*/
+	}
+	p{
+		/*float:left;*/
+		font-size: 24px;
+	}
+	#vola img{
+		width: 400px;
+		height: 350px;
+		float:left;
+	}
+	#cello img{
+		width: 500px;
+		height: 400px;
+		float:left;
+	}
+	#doublebass img{
+		width: 600px;
+		height: 504px;
+		position: absolute;
+		right: 0px;
+	}
+	#doublebass p{
+		float:left;
+		font-size: 24px;
+	}
+	#doublebass h1{
+	padding-top: 300px;}
+	.table{
+		display: table;
+	}
+	.tr{
+		display: table-row;
+	}
+	.td{
+		display: table-cell;
+		vertical-align:middle;
+	}
+}

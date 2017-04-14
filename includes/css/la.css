@@ -1,0 +1,110 @@
+@media(max-width: 760px){
+	body{
+	margin-left: 20px;
+	margin-right: 20px;
+	}
+	#two img{
+		width: 50%;
+		height: 50%;
+	}
+	p{
+		float:left;
+		font-size: 12px;
+	}
+
+	.table{
+		position: absolute;
+		top: 50px;
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+
+	}
+	.td{
+		vertical-align:middle;
+	}
+}
+@media(min-width: 761px){
+	body{
+	margin: 50px;
+	}
+
+	#chairs{
+		width: 800px;
+		height: 566px;
+		background: url('../images/m-chairs.png') top center;
+		-webkit-background-size: cover;
+		margin: 0px auto;	
+	}
+
+	.two{
+		width: 200px;
+		height: 300px;
+		background: url('../images/002.png') top center;
+		-webkit-background-size: cover;
+		position: absolute;
+		top: 35%;
+		left: 40%;
+	}
+
+	#two img{
+		width: 200px;
+		height: 300px;
+		float:left;
+	}
+	p{
+		float:left;
+		font-size: 18px;
+	}
+		.table{
+		display: table;
+	}
+	.tr{
+		display: table-row;
+	}
+	.td{
+		display: table-cell;
+		vertical-align:middle;
+	}
+}
+@media(min-width: 930px){
+	body{
+		margin: 100px;
+	}
+
+	p{
+		/*float:left;*/
+		font-size: 24px;
+	}
+	#chairs{
+		background: url('../images/chairs.png') top center;
+		-webkit-background-size: cover;
+		width: 1000px;
+		margin: 0px auto;
+	}
+
+	#two img{
+		width: 300px;
+		height: 400px;
+	}
+	.two{
+		width: 300px;
+		height: 400px;
+		background: url('../images/002.png') top center;
+		-webkit-background-size: cover;
+		position: absolute;
+		top: 35%;
+		left: 40%;
+	}
+
+	.table{
+		display: table;
+	}
+	.tr{
+		display: table-row;
+	}
+	.td{
+		display: table-cell;
+		vertical-align:middle;
+	}
+}
